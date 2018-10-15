@@ -18,10 +18,10 @@
 			level: 3
 		};
         	var map = new daum.maps.Map(container, options);
-		
-		places.setMap(map);
         
         	var places = new daum.maps.services.Places();
+		
+		places.setMap(map);
 
         	var callback = function(result, status) {
 			if (status === daum.maps.services.Status.OK) {
