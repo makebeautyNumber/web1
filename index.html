@@ -19,9 +19,9 @@
 		};
         	var map = new daum.maps.Map(container, options);
         
-        	var places = new daum.maps.services.Places();
+        	
+		var places = new daum.maps.services.Places();
 		
-		places.setMap(map);
 
         	var callback = function(result, status) {
 			if (status === daum.maps.services.Status.OK) {
