@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <title>Untitled Document</title>
     <style>
-	    body {
-            align-content: center;
-        }
+	    
     </style>
 </head>
 <body>
@@ -20,6 +18,8 @@
 			level: 3
 		};
         	var map = new daum.maps.Map(container, options);
+		
+		places.setMap(map);
         
         	var places = new daum.maps.services.Places();
 
